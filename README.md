@@ -1,5 +1,4 @@
-### Olá eu sou o Gustavo Emanuel👋
-#### Programador Full-Stack
+#### Olá eu sou o Gustavo Emanuel👋 Programador Full-Stack
 ##
   
   - 🔭 Atualmente trabalho em uma empresa de tecnologia chamada Siaupro que trabalha com PHP, JavaScript e MYSql
