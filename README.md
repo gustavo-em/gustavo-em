@@ -1,5 +1,5 @@
 ### Olá eu sou o Gustavo Emanuel👋
-#### Programador Full-Stack, fique a vontade para olhar meus projetos
+#### Programador Full-Stack
 ##
   
   - 🔭 Atualmente trabalho em uma empresa de tecnologia chamada Siaupro
@@ -14,16 +14,6 @@
   <img align="center" alt="Gustavo-PHP" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg">
  
 </div>
-
-##
-
-<div align="center">
-  <a href="https://github.com/gustavo-em">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=gustavo-em&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gustavo-em&layout=compact&langs_count=7&theme=dracula"/>
-</div>
-  
-## 
   
 
   
