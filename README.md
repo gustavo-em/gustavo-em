@@ -2,8 +2,8 @@
 #### Programador Full-Stack
 ##
   
-  - 🔭 Atualmente trabalho em uma empresa de tecnologia chamada Siaupro
-  - 🌱 Estou aprendendo React e Node
+  - 🔭 Atualmente trabalho em uma empresa de tecnologia chamada Siaupro que trabalha com PHP, JavaScript e MYSql
+  - 🌱 Tenho interesse em tecnologias como React e Node
 <div style="display: inline_block"><br>
   <img align="center" alt="Gustavo-JS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="Gustavo-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
