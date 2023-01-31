@@ -1,2 +1,2 @@
-### Hello, I'm Gustavo Emanuel👋
-- Linkedin: https://www.linkedin.com/in/gustavo-emanuel-rosa-159302181/ 
+### Hello, I'm Gustavo Emanuel, React Native Developer👋
+- Linkedin: (https://www.linkedin.com/in/gustavo-em01/?locale=en_US)
