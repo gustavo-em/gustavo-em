@@ -1,3 +1,4 @@
-- 👋 Gustavo Emanuel Rosa, a React Native specialist with extensive experience in back-end and native modules for iOS and Android. My GitHub showcases innovative and high-quality projects using the latest technologies and market trends. Discover my work.
+- 👋 Gustavo Emanuel Rosa, Mobile Software Engineer with 5+ years of experience building production Android and iOS applications, including native mobile development, React Native, TypeScript, offline-first data and large-scale mobile systems.
+
 
 - Linkedin: (https://www.linkedin.com/in/gustavo-em01/?locale=en_US)
