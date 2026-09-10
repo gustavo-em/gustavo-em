@@ -4,74 +4,53 @@
 
 <p align="center">
   <b>Mobile Software Engineer</b> · React Native · Android (Kotlin/Java) · iOS (Swift)<br>
-  Building production Android and iOS apps for 6 years, including an enterprise app used by <b>200,000+ people a day</b>.
+  <sub>6 years shipping production apps — including one used by 200,000+ people a day. Now building my own.</sub>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/gustavoemanuelrosa/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-gustavoemanuelrosa-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
-  <a href="mailto:gustavo.emanuel01@outlook.com"><img alt="Email" src="https://img.shields.io/badge/Email-gustavo.emanuel01@outlook.com-EA4335?style=flat-square&logo=maildotru&logoColor=white"></a>
-  <img alt="Location" src="https://img.shields.io/badge/S%C3%A3o%20Paulo,%20BR-UTC%E2%88%923%20·%20full%20US%20Eastern%20overlap-334155?style=flat-square">
-  <img alt="English" src="https://img.shields.io/badge/English-C1%20(EF%20SET)-16a34a?style=flat-square">
-  <img alt="Open to" src="https://img.shields.io/badge/Open%20to-international%20remote%20roles-6f42c1?style=flat-square">
+  <a href="https://www.linkedin.com/in/gustavoemanuelrosa/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="mailto:gustavo.emanuel01@outlook.com"><img alt="Email" src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=maildotru&logoColor=white"></a>
+  <img alt="Location" src="https://img.shields.io/badge/S%C3%A3o%20Paulo%20·%20UTC%E2%88%923-1f2328?style=for-the-badge">
+  <img alt="Open to international remote" src="https://img.shields.io/badge/open%20to%20international%20remote-6f42c1?style=for-the-badge">
 </p>
 
----
-
-## About
-
-I work on both sides of the React Native bridge — TypeScript on top, Kotlin/Java and Swift underneath — on camera pipelines, screen sharing, native modules and offline-first SQLite storage.
-
-What that looked like in production:
-
-- **200,000+ daily users** on the enterprise workforce app I own React Native delivery for
-- **50% lower** observability cost after building a custom production error-logging layer
-- **15% faster** loading by reworking offline-first storage and mobile data access patterns
-- **20% smoother** facial-recognition camera flows on entry-level Android devices
-- **6x faster** queries on a legacy API — 3 minutes down to 0.5 seconds
-
-Most of my professional work lives in private company repositories under my work account [@gustavoRosaPontoTel](https://github.com/gustavoRosaPontoTel). The projects below are the public ones.
-
----
-
-## Featured Projects
+<br>
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 📋 [Aluza](https://github.com/gustavo-em/aluza)
+### [Aluza](https://github.com/gustavo-em/aluza) &nbsp;<a href="https://apps.apple.com/us/app/aluza-shared-to-do-list/id6808513680"><img alt="Live on the App Store" src="https://img.shields.io/badge/App%20Store-live-0D96F6?style=flat-square&logo=apple&logoColor=white"></a>
 
-Task app that <b>captures without limit and commits to three</b>. The "only three tasks today" rule is a domain type, not view state — it survives any UI redesign.
+<a href="https://apps.apple.com/us/app/aluza-shared-to-do-list/id6808513680"><img src="docs/aluza-screens.png" width="100%" alt="Aluza — shared to-do list"></a>
 
-<sub>Clean Architecture · MVVM · domain event bus · offline-first · pt-BR/en-US</sub>
+A shared to-do list that <b>captures without limit and commits to three</b>. The rule lives in the domain layer, not in the UI — `Trio` and `Progress` are types, so a redesign can't break it.
 
-`React Native 0.87` `TypeScript` `Firebase`
+`React Native 0.87` `TypeScript` `Firebase` `Clean Architecture` `MVVM` `offline-first`
 
-[Live](https://ideiasorganizetask.web.app/) · [Architecture](https://github.com/gustavo-em/aluza/blob/main/docs/ARCHITECTURE.md) · [ADRs](https://github.com/gustavo-em/aluza/tree/main/docs/adr)
+[App Store](https://apps.apple.com/us/app/aluza-shared-to-do-list/id6808513680) · [Site](https://ideiasorganizetask.web.app/) · [Architecture](https://github.com/gustavo-em/aluza/blob/main/docs/ARCHITECTURE.md) · [ADRs](https://github.com/gustavo-em/aluza/tree/main/docs/adr)
 
 </td>
 <td width="50%" valign="top">
 
-### 📷 [SayLens](https://github.com/gustavo-em/lesingo)
+### [SayLens](https://github.com/gustavo-em/lesingo) &nbsp;<img alt="on-device" src="https://img.shields.io/badge/100%25-on--device-16a34a?style=flat-square">
 
-Turns the camera into a language-learning surface: <b>on-device</b> object detection, live vocabulary overlays and device text-to-speech. No backend, no image ever leaves the phone.
+<a href="https://github.com/gustavo-em/lesingo"><img src="docs/saylens-demo.gif" width="48%" align="left" alt="SayLens live demo"></a><a href="https://github.com/gustavo-em/lesingo"><img src="docs/saylens-still.png" width="48%" alt="SayLens learning card"></a>
 
-<sub>Tuned to run on entry-level Android as well as iPhone</sub>
+Points the camera at everyday objects and anchors an English card over each one — word, translation, IPA and speech. <b>No backend, no frame ever leaves the phone.</b>
 
-`VisionCamera 5` `MediaPipe / EfficientDet-Lite0` `Kotlin (Nitro module)` `Reanimated`
+`VisionCamera 5` `MediaPipe · EfficientDet-Lite0` `Kotlin (Nitro)` `Reanimated`
 
-[Site](https://gustavo-em.github.io/lesingo/) · [Architecture](https://github.com/gustavo-em/lesingo/blob/main/docs/ARCHITECTURE.md)
+[Full video demo](https://github.com/gustavo-em/lesingo#demo) · [Site](https://gustavo-em.github.io/lesingo/) · [Architecture](https://github.com/gustavo-em/lesingo/blob/main/docs/ARCHITECTURE.md)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🤖 [Orchestrator Features](https://github.com/gustavo-em/orchestrator-features)
+### [Orchestrator Features](https://github.com/gustavo-em/orchestrator-features)
 
 A multi-agent loop that plans a React Native feature, writes it, <b>opens the app on a real Android device</b>, reads the UI tree — and only then says whether it passed.
-
-<sub>Verification on a physical device, not on the model's word</sub>
 
 `Node ≥18` `Claude Code` `Codex` `Android automation`
 
@@ -80,11 +59,9 @@ A multi-agent loop that plans a React Native feature, writes it, <b>opens the ap
 </td>
 <td width="50%" valign="top">
 
-### 🎥 [BigBlueButton Tablet SDK](https://github.com/bigbluebutton/bigbluebutton-tablet-sdk)
+### [BigBlueButton Tablet SDK](https://github.com/bigbluebutton/bigbluebutton-tablet-sdk)
 
-Open-source SDK for the BigBlueButton education platform. I built the <b>React Native + Swift integration for iOS screen sharing</b> over WebRTC, in English, with a distributed team.
-
-<sub>Open source · real-time collaboration</sub>
+Open-source SDK for the BigBlueButton classroom platform. I built the <b>React Native + Swift integration for iOS screen sharing</b> over WebRTC, with a team distributed across countries.
 
 `Swift` `React Native` `WebRTC` `Native iOS`
 
@@ -95,24 +72,20 @@ Open-source SDK for the BigBlueButton education platform. I built the <b>React N
 <tr>
 <td width="50%" valign="top">
 
-### 📦 [react-native-logfile](https://github.com/gustavo-em/react-native-logfile)
+### [react-native-logfile](https://github.com/gustavo-em/react-native-logfile)
 
-Library to write, persist and share application logs straight from a user's device — built because reproducing production bugs from crash reports alone was not working.
+Writes, persists and shares application logs straight from a user's device — built because production bugs don't reproduce from a stack trace alone.
 
-<sub>Published on npm</sub>
+`React Native` `TypeScript` `npm`
 
-`React Native` `TypeScript` `Developer tooling`
-
-[npm](https://www.npmjs.com/package/react-native-logfile-share)
+[npm](https://www.npmjs.com/package/react-native-logfile-share) · [Repository](https://github.com/gustavo-em/react-native-logfile)
 
 </td>
 <td width="50%" valign="top">
 
-### 📊 [EnquetesBrasil](https://github.com/gustavo-em/EnquetesBrasil)
+### [EnquetesBrasil](https://github.com/gustavo-em/EnquetesBrasil)
 
-Survey and chart maker — create polls and read the results as charts. <b>Shipped to the Google Play Store.</b>
-
-<sub>End-to-end: build, store listing, release</sub>
+Survey and chart maker — create a poll, read the answers as charts. Shipped end to end: build, store listing and release on Google Play.
 
 `React Native` `TypeScript` `Charts`
 
@@ -122,35 +95,18 @@ Survey and chart maker — create polls and read the results as charts. <b>Shipp
 </tr>
 </table>
 
----
-
-## Tech
-
-| | |
-|---|---|
-| **Mobile** | React Native · TypeScript · JavaScript · Redux · styled-components · Jest |
-| **Native** | Android (Kotlin, Java) · iOS (Swift) · Native modules & bridging · WebRTC · VisionCamera · MediaPipe |
-| **Data & backend** | SQLite · offline-first sync · Firebase · REST APIs · Node.js · PostgreSQL |
-| **Architecture** | Clean Architecture · MVVM · Domain-Driven Design · performance profiling · production debugging |
-| **Delivery** | CI/CD · Google Play Console · App Store Connect · Git · AI-assisted development (Claude Code, Codex) |
-
----
-
-## Experience
-
-| Company | Role | Period | Highlight |
-|---|---|---|---|
-| **PontoTel** | Mobile Engineer (React Native) | Apr 2023 – present | Enterprise workforce apps, one with 200k+ daily users; 50% cut in observability cost |
-| **Bling** | Mobile Engineer (React Native) | Aug 2022 – Apr 2023 | Mobile banking for entrepreneurs; 2 seconds off loading time |
-| **iMDT** | Mobile Engineer (React Native / iOS) | Dec 2021 – Aug 2022 | iOS screen sharing for BigBlueButton, open source, distributed team |
-| **Siaupro** | Full Stack Engineer (React Native & Web) | Jul 2020 – Jan 2022 | 6x query performance; products for engineers and architects |
-
-**Education** — B.S. Systems Analysis and Development, Centro Universitário Senac (2020–2023)
-
----
+<br>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/gustavoemanuelrosa/">LinkedIn</a> ·
-  <a href="mailto:gustavo.emanuel01@outlook.com">Email</a> ·
-  São Paulo, Brazil (UTC−3)
+  <sub>
+  <b>Day to day:</b> React Native · TypeScript · Kotlin · Swift · native modules & bridging · SQLite and offline-first sync · Firebase · Clean Architecture · MVVM · performance work on entry-level devices
+  </sub>
+</p>
+
+<p align="center">
+  <sub>Most of my professional work lives in private company repositories under my work account <a href="https://github.com/gustavoRosaPontoTel">@gustavoRosaPontoTel</a>.</sub>
+</p>
+
+<p align="center">
+  <img width="641" alt="contributions" src="https://github.com/user-attachments/assets/30ce4afe-2fc4-4a79-9998-35c9290fc475" />
 </p>
