@@ -15,15 +15,15 @@ React Native library for storing, exporting and sharing application logs.
 Mobile development for the BigBlueButton real-time collaboration platform.  
 `React Native` `Swift` `WebRTC` `Native iOS`
 
-### ✅ ideias-organize-task
+### ✅ Aluza
 Mobile app focused on task organization and shared productivity.  
 `React Native` `TypeScript` `Firebase`
 
-### 🧠 orquestrador-features
+### 🧠 orchestrator-features
 Multi-agent workflow that plans, implements and validates mobile features on real devices.  
 `AI Agents` `Architecture` `Claude Code` `Codex`
 
-### 📷 SayLens
+### 📷 Lesingo
 On-device object recognition app that turns the camera into an interactive language-learning experience.  
 `Computer Vision` `Camera` `Performance` `On-device ML`
 
