@@ -1,6 +1,9 @@
 
 <img width="2048" height="768" alt="ChatGPT Image 10 de set  de 2026, 07_05_40" src="https://github.com/user-attachments/assets/378232aa-b204-4ad5-a28e-05dc5c933b92" />
-- 👋 Gustavo Emanuel Rosa, Mobile Software Engineer with 5+ years of experience building production Android and iOS applications, including native mobile development, React Native, TypeScript, offline-first data and large-scale mobile systems. Linkedin: https://www.linkedin.com/in/gustavoemanuelrosa/
+
+##### 👋 Gustavo Emanuel Rosa, Mobile Software Engineer with 5+ years of experience building production Android and iOS applications, including native mobile development, React Native, TypeScript, offline-first data and large-scale mobile systems. 
+
+## Linkedin: https://www.linkedin.com/in/gustavoemanuelrosa/
 
 ## 🚀 Featured Projects
 
