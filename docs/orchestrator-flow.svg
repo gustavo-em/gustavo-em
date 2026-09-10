@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 916 950" width="916" height="950" role="img" aria-label="A prompt typed into the orchestrator and the five agents it runs">
+  <defs>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .name { font-size: 21px; font-weight: 600; }
+      .desc { font-size: 15px; }
+      .tag  { font-size: 12.5px; letter-spacing: .08em; }
+    </style>
+    <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#484f58"/>
+    </marker>
+  </defs>
+
+  <rect width="916" height="950" rx="14" fill="#0d1117"/>
+
+  <!-- terminal -->
+  <rect x="36" y="28" width="808" height="172" rx="10" fill="#161b22" stroke="#30363d"/>
+  <rect x="36" y="28" width="808" height="34" rx="10" fill="#21262d"/>
+  <rect x="36" y="52" width="808" height="10" fill="#21262d"/>
+  <circle cx="58" cy="45" r="5.5" fill="#ff5f57"/><circle cx="76" cy="45" r="5.5" fill="#febc2e"/><circle cx="94" cy="45" r="5.5" fill="#28c840"/>
+  <text class="mono" x="440" y="50" fill="#8b949e" font-size="12.5" text-anchor="middle">orquestrar-features</text>
+  <text class="mono" x="62" y="100" font-size="16" fill="#8b949e">$</text>
+  <text class="mono" x="84" y="100" font-size="16" fill="#e6edf3">orquestrar-features --project ~/Documents/meu-app</text>
+  <text class="mono" x="84" y="140" font-size="19" fill="#f9d71c">"make the home screen calmer"</text>
+  <text class="mono" x="84" y="172" font-size="13.5" fill="#6e7681">one sentence in, a verified feature out</text>
+
+  <path d="M440 200 L440 232" stroke="#484f58" stroke-width="1.6" marker-end="url(#ar)"/>
+
+  <!-- market_analyst (optional) -->
+  <rect x="36" y="238" width="808" height="92" rx="10" fill="#161b22" stroke="#30363d" stroke-dasharray="5 4"/>
+  <text class="mono name" x="62" y="276" fill="#e6edf3">market_analyst</text>
+  <text class="sans tag" x="62" y="300" fill="#6e7681">OPTIONAL · 3 PARALLEL LANES</text>
+  <text class="sans desc" x="470" y="284" fill="#8b949e">Real user reviews: why people leave,</text>
+  <text class="sans desc" x="470" y="306" fill="#8b949e">why they stay, how they react to paying</text>
+
+  <path d="M440 330 L440 358" stroke="#484f58" stroke-width="1.6" marker-end="url(#ar)"/>
+
+  <!-- feature_lead -->
+  <rect x="36" y="364" width="808" height="116" rx="10" fill="#1c1a08" stroke="#f9d71c" stroke-width="1.6"/>
+  <text class="mono name" x="62" y="404" fill="#f9d71c">feature_lead</text>
+  <text class="sans tag" x="62" y="428" fill="#a58b18">PERSISTENT SESSION</text>
+  <text class="sans desc" x="62" y="458" fill="#8b949e">plans with high reasoning, then writes the code in the same session id</text>
+  <text class="sans desc" x="470" y="404" fill="#c9b458">The product call, the UX direction,</text>
+  <text class="sans desc" x="470" y="426" fill="#c9b458">the code and every correction cycle</text>
+
+  <path d="M440 480 L440 508" stroke="#484f58" stroke-width="1.6" marker-end="url(#ar)"/>
+
+  <!-- code_reviewer -->
+  <rect x="36" y="514" width="808" height="84" rx="10" fill="#161b22" stroke="#30363d"/>
+  <text class="mono name" x="62" y="550" fill="#e6edf3">code_reviewer</text>
+  <text class="sans tag" x="62" y="574" fill="#6e7681">STATELESS</text>
+  <text class="sans desc" x="470" y="562" fill="#8b949e">The diff: correctness, structure, risk</text>
+
+  <path d="M440 598 L440 620" stroke="#484f58" stroke-width="1.6" marker-end="url(#ar)"/>
+
+  <!-- tester -->
+  <rect x="36" y="626" width="808" height="84" rx="10" fill="#161b22" stroke="#30363d"/>
+  <text class="mono name" x="62" y="662" fill="#e6edf3">tester</text>
+  <text class="sans tag" x="62" y="686" fill="#6e7681">REAL ANDROID DEVICE</text>
+  <text class="sans desc" x="470" y="674" fill="#8b949e">Screenshots and the UI tree from the phone</text>
+
+  <path d="M440 710 L440 732" stroke="#484f58" stroke-width="1.6" marker-end="url(#ar)"/>
+
+  <!-- ux_auditor -->
+  <rect x="36" y="738" width="808" height="84" rx="10" fill="#161b22" stroke="#30363d"/>
+  <text class="mono name" x="62" y="774" fill="#e6edf3">ux_auditor</text>
+  <text class="sans tag" x="62" y="798" fill="#6e7681">STATELESS</text>
+  <text class="sans desc" x="470" y="786" fill="#8b949e">Flow, states, accessibility, visual direction</text>
+
+  <!-- findings loop back to feature_lead -->
+  <path d="M844 780 C 886 780 886 422 848 422" fill="none" stroke="#f9d71c" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#ar)" opacity=".75"/>
+  <text class="sans tag" x="900" y="606" fill="#a58b18" text-anchor="middle" transform="rotate(90 900 606)">FINDINGS</text>
+
+  <path d="M440 822 L440 852" stroke="#484f58" stroke-width="1.6" marker-end="url(#ar)"/>
+
+  <!-- pass -->
+  <rect x="36" y="858" width="808" height="66" rx="10" fill="#0d2018" stroke="#5fcf95" stroke-width="1.6"/>
+  <text class="mono name" x="62" y="899" fill="#5fcf95">PASS</text>
+  <text class="sans desc" x="470" y="897" fill="#5fcf95">Only after the app ran on the device</text>
+</svg>
