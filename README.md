@@ -106,7 +106,3 @@ Survey and chart maker — create a poll, read the answers as charts. Shipped en
 <p align="center">
   <sub>Most of my professional work lives in private company repositories under my work account <a href="https://github.com/gustavoRosaPontoTel">@gustavoRosaPontoTel</a>.</sub>
 </p>
-
-<p align="center">
-  <img width="641" alt="contributions" src="https://github.com/user-attachments/assets/30ce4afe-2fc4-4a79-9998-35c9290fc475" />
-</p>
