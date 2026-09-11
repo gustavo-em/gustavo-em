@@ -10,17 +10,16 @@
   <img alt="Open to international remote" src="https://img.shields.io/badge/open%20to%20international%20remote-6f42c1?style=for-the-badge">
 </p>
 
-## Apps I built
+## Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
+
 <a href="https://github.com/gustavo-em/lesingo#demo"><img src="docs/lesingo-demo.gif" width="49%" alt="Lesingo running live on a phone"></a><a href="https://github.com/gustavo-em/lesingo#demo"><img src="docs/lesingo-still.png" width="49%" alt="Lesingo learning card"></a>
-</td>
-<td width="50%" valign="top">
 
 ### [Lesingo](https://github.com/gustavo-em/lesingo)
-<img alt="in development" src="https://img.shields.io/badge/Android-in%20development-f9d71c?style=flat-square&labelColor=1f2328"> <img alt="on-device" src="https://img.shields.io/badge/100%25-on--device-16a34a?style=flat-square">
+<img alt="App, Android, in development" src="https://img.shields.io/badge/app-Android%20·%20in%20development-1f2328?style=flat-square&labelColor=6f42c1"> <img alt="100% on-device" src="https://img.shields.io/badge/100%25-on--device-16a34a?style=flat-square">
 
 Point the camera at everyday objects and get an English card over each one: word, translation, IPA, speech. No backend, no frame ever leaves the phone.
 
@@ -29,15 +28,12 @@ The camera pipeline is native: VisionCamera 5 frame processor, MediaPipe Efficie
 [Video demo](https://github.com/gustavo-em/lesingo#demo) · [Site](https://gustavo-em.github.io/lesingo/) · [Architecture](https://github.com/gustavo-em/lesingo/blob/main/docs/ARCHITECTURE.md)
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://apps.apple.com/us/app/aluza-shared-to-do-list/id6808513680"><img src="docs/aluza-screens.png" width="100%" alt="Aluza, shared to-do list, on the App Store"></a>
-</td>
 <td width="50%" valign="top">
 
+<a href="https://apps.apple.com/us/app/aluza-shared-to-do-list/id6808513680"><img src="docs/aluza-screens.png" width="100%" alt="Aluza, shared to-do list, on the App Store"></a>
+
 ### [Aluza](https://github.com/gustavo-em/aluza)
-<a href="https://apps.apple.com/us/app/aluza-shared-to-do-list/id6808513680"><img alt="Live on the App Store" src="https://img.shields.io/badge/App%20Store-live-0D96F6?style=flat-square&logo=apple&logoColor=white"></a>
+<a href="https://apps.apple.com/us/app/aluza-shared-to-do-list/id6808513680"><img alt="App, live on the App Store" src="https://img.shields.io/badge/app-live%20on%20the%20App%20Store-1f2328?style=flat-square&labelColor=6f42c1&logo=apple&logoColor=white"></a>
 
 A shared to-do list that captures without limit and commits to three. The rule lives in the domain layer, not in the UI, so a redesign cannot break it.
 
@@ -49,12 +45,11 @@ React Native 0.87, TypeScript, Firebase, offline-first, Clean Architecture + MVV
 </tr>
 <tr>
 <td width="50%" valign="top">
+
 <a href="https://github.com/gustavo-em/bocado"><img src="docs/bocado-pt-en.png" width="100%" alt="Bocado in Portuguese with the light theme and in English with the dark theme"></a>
-</td>
-<td width="50%" valign="top">
 
 ### [Bocado](https://github.com/gustavo-em/bocado)
-<img alt="in development" src="https://img.shields.io/badge/Android%20%2B%20iOS-in%20development-f9d71c?style=flat-square&labelColor=1f2328">
+<img alt="App, personal project" src="https://img.shields.io/badge/app-personal%20project-1f2328?style=flat-square&labelColor=6f42c1">
 
 A calorie counter that logs Brazilian food in three taps, offline, without an account: the official food tables shipped with the household measures people actually use at the table.
 
@@ -63,31 +58,16 @@ Left: Portuguese, light theme. Right: English, dark theme. React Native, TypeScr
 [Repository](https://github.com/gustavo-em/bocado) · [Why it exists](https://github.com/gustavo-em/bocado#why-it-exists)
 
 </td>
-</tr>
-</table>
-
-## Open-source contributions
-
-<a href="https://github.com/bigbluebutton/bigbluebutton-mobile/pulls?q=is%3Apr+author%3Agustavo-em+is%3Amerged"><img src="docs/bigbluebutton-contributions-v2.svg" width="100%" alt="26 pull requests merged in bigbluebutton-mobile, 6 more across BigBlueButton repositories, 4 Swift commits in the mobile SDK"></a>
-
-**[BigBlueButton Mobile](https://github.com/bigbluebutton/bigbluebutton-mobile)** is the official app of BigBlueButton, an open-source classroom platform. Between Feb and Jun 2022, at iMDT, I had 26 pull requests merged there: multi-portal management, the iOS delegate that stops screen sharing when the app is closed, i18n fallback for missing locales, iPad full-screen layout, Android build fixes. On the native side, my Swift commits in the mobile SDK cover screen-share rotation in the ReplayKit Broadcast Upload Extension, stopping the extension from the app and background audio keep-alive. Async review with a team spread across countries, in English.
-
-[My 26 merged PRs](https://github.com/bigbluebutton/bigbluebutton-mobile/pulls?q=is%3Apr+author%3Agustavo-em+is%3Amerged) · [Swift commits in the SDK](https://github.com/gustavo-em/bigbluebutton-mobile-sdk/commits?author=gustavo-em) · [PRs in the platform](https://github.com/bigbluebutton/bigbluebutton/pulls?q=is%3Apr+author%3Agustavo-em+is%3Amerged)
-
-## Tools and libraries
-
-<table>
-<tr>
 <td width="50%" valign="top">
+
 <a href="https://github.com/gustavo-em/orchestrator-features#how-it-works"><img src="docs/orchestrator-flow.svg" width="100%" alt="A prompt typed into the orchestrator and the five agents it runs"></a>
-</td>
-<td width="50%" valign="top">
 
 ### [Orchestrator Features](https://github.com/gustavo-em/orchestrator-features)
+<img alt="Tool" src="https://img.shields.io/badge/tool-Node%20·%20Claude%20Code%20·%20Codex-1f2328?style=flat-square&labelColor=6f42c1">
 
 One sentence goes in. It plans the React Native feature, writes it, opens the app on a real Android device, reads the UI tree, and only then says whether it passed.
 
-Node 18+, Claude Code, Codex, Android automation over adb. Built to ship my own apps faster without skipping the part where a human would have tapped through the screen.
+Built to ship my own apps faster without skipping the part where a human would have tapped through the screen. Android automation over adb.
 
 [How it works](https://github.com/gustavo-em/orchestrator-features#how-it-works) · [Token economy](https://github.com/gustavo-em/orchestrator-features#token-economy)
 
@@ -95,17 +75,31 @@ Node 18+, Claude Code, Codex, Android automation over adb. Built to ship my own 
 </tr>
 <tr>
 <td width="50%" valign="top">
+
 <a href="https://github.com/gustavo-em/react-native-logfile"><img src="docs/logfile-card.svg" width="100%" alt="react-native-logfile-share: write logs to a file on the device, then share the file from a button"></a>
-</td>
-<td width="50%" valign="top">
 
 ### [react-native-logfile](https://github.com/gustavo-em/react-native-logfile)
+<a href="https://www.npmjs.com/package/react-native-logfile-share"><img alt="Library on npm" src="https://img.shields.io/badge/library-npm-1f2328?style=flat-square&labelColor=6f42c1&logo=npm&logoColor=white"></a>
 
 Writes, persists and shares application logs straight from the user's device. Two calls: one to write, one to hand the file to the user through the native share sheet.
 
 Published on npm as `react-native-logfile-share`. Same idea I took to production at work, where a custom error-logging layer cut monitoring cost by 50%.
 
 [npm](https://www.npmjs.com/package/react-native-logfile-share) · [Repository](https://github.com/gustavo-em/react-native-logfile)
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://github.com/bigbluebutton/bigbluebutton-mobile/pulls?q=is%3Apr+author%3Agustavo-em+is%3Amerged"><img src="docs/bigbluebutton-contributions-tall.svg" width="100%" alt="26 pull requests merged in bigbluebutton-mobile, 4 Swift commits in the mobile SDK, 6 more across BigBlueButton repositories"></a>
+
+### [BigBlueButton Mobile](https://github.com/bigbluebutton/bigbluebutton-mobile)
+<img alt="Open-source contribution" src="https://img.shields.io/badge/contribution-open%20source%20·%20not%20my%20repository-1f2328?style=flat-square&labelColor=6f42c1">
+
+The official app of BigBlueButton, an open-source classroom platform. Between Feb and Jun 2022, at iMDT, 26 of my pull requests were merged there, and my Swift commits in the mobile SDK cover the ReplayKit screen-share extension.
+
+Async review, in English, with a team spread across countries.
+
+[My 26 merged PRs](https://github.com/bigbluebutton/bigbluebutton-mobile/pulls?q=is%3Apr+author%3Agustavo-em+is%3Amerged) · [Swift commits in the SDK](https://github.com/gustavo-em/bigbluebutton-mobile-sdk/commits?author=gustavo-em) · [PRs in the platform](https://github.com/bigbluebutton/bigbluebutton/pulls?q=is%3Apr+author%3Agustavo-em+is%3Amerged)
 
 </td>
 </tr>
