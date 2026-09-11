@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>Mobile Software Engineer</b> · React Native · Android (Kotlin/Java) · iOS (Swift)<br>
-  <sub>6 years shipping production apps — including one used by 200,000+ people a day. Now building my own.</sub>
+  <sub>6 years shipping production Android and iOS apps — including an enterprise app used by 200,000+ people a day. Open to senior React Native roles, remote (US/EU overlap, UTC−3).</sub>
 </p>
 
 <p align="center">
@@ -15,7 +15,7 @@
 <h2 align="center">Projects</h2>
 
 <p align="center">
-  <sub>Two apps, an open-source SDK, an agent tool and a library — each with the reason it exists</sub>
+  <sub>Two shipped apps, contributions to an open-source classroom app, an agent tool and a library — each with the reason it exists</sub>
 </p>
 
 <table>
@@ -80,32 +80,38 @@ A calorie counter that logs Brazilian food in <b>three taps, offline, without an
 
 ### [BigBlueButton Mobile](https://github.com/bigbluebutton/bigbluebutton-mobile)
 
-Open-source SDK for the BigBlueButton classroom platform. I built the <b>React Native + Swift integration for iOS screen sharing</b> over WebRTC, with a team distributed across countries.
+The official mobile app of BigBlueButton, an open-source classroom platform. <b>26 pull requests merged</b> between Feb and Jun 2022 while at iMDT: multi-portal management, the iOS delegate that stops screen sharing when the app is closed, i18n fallback for missing locales, iPad full-screen layout and Android build fixes.
 
-`Swift` `React Native` `WebRTC` `Native iOS`
+`React Native` `TypeScript` `Swift` `WebRTC` `i18n` `iOS + Android release`
 
-[Repository](https://github.com/bigbluebutton/bigbluebutton-mobile) · [My fork](https://github.com/gustavo-em/bigbluebutton-mobile-tablet)
+[My 26 merged PRs](https://github.com/bigbluebutton/bigbluebutton-mobile/pulls?q=is%3Apr+author%3Agustavo-em+is%3Amerged) · [Repository](https://github.com/bigbluebutton/bigbluebutton-mobile)
 
 </td>
 <td width="50%" valign="top">
 
 ### [react-native-logfile](https://github.com/gustavo-em/react-native-logfile)
 
-Writes, persists and shares application logs straight from a user's device — built because production bugs don't reproduce from a stack trace alone.
+Writes, persists and shares application logs straight from a user's device. Same idea I took to production at work, where a custom error-logging layer cut monitoring cost by 50%.
 
 `React Native` `TypeScript` `npm`
 
-[npm](https://www.npmjs.com/package/react-native-logfile-share) · [Repository](https://github.com/gustavo-em/react-native-logfile)
+[npm: react-native-logfile-share](https://www.npmjs.com/package/react-native-logfile-share) · [Repository](https://github.com/gustavo-em/react-native-logfile)
 
 </td>
 </tr>
 </table>
 
+<h2 align="center">Open source</h2>
+
+<p align="center">
+  <sub><b>BigBlueButton</b> — open-source classroom platform. Between Feb and Jun 2022, at iMDT, I had <b>26 pull requests merged</b> into <a href="https://github.com/bigbluebutton/bigbluebutton-mobile/pulls?q=is%3Apr+author%3Agustavo-em+is%3Amerged">bigbluebutton/bigbluebutton-mobile</a> and 6 more across <a href="https://github.com/bigbluebutton/bigbluebutton/pulls?q=is%3Apr+author%3Agustavo-em+is%3Amerged">bigbluebutton/bigbluebutton</a> and iMDT/bigbluebutton: multi-portal management, the iOS delegate that stops screen sharing when the app is closed, i18n fallback, iPad full-screen layout, Android build fixes and translations shipped through Transifex. Async review with a team spread across countries, in English.</sub>
+</p>
+
 <br>
 
 <p align="center">
   <sub>
-  <b>Day to day:</b> React Native · TypeScript · Kotlin · Swift · native modules & bridging · SQLite and offline-first sync · Firebase · Clean Architecture · MVVM · performance work on entry-level devices
+  <b>Day to day:</b> React Native · TypeScript · Kotlin · Swift · native modules (bridging & Nitro) · SQLite and offline-first sync · Firebase · CI/CD and store releases (Google Play, App Store) · Clean Architecture · MVVM · performance work on entry-level devices
   </sub>
 </p>
 
@@ -113,4 +119,7 @@ Writes, persists and shares application logs straight from a user's device — b
   <sub>Most of my professional work lives in private company repositories under my work account <a href="https://github.com/gustavoRosaPontoTel">@gustavoRosaPontoTel</a>.</sub>
 </p>
 
-<img width="2048" alt="Gustavo Emanuel Rosa — Mobile Software Engineer" src="https://github.com/user-attachments/assets/378232aa-b204-4ad5-a28e-05dc5c933b92" />
+<p align="center">
+  <img width="100%" alt="Gustavo Emanuel Rosa — Mobile Software Engineer" src="https://github.com/user-attachments/assets/378232aa-b204-4ad5-a28e-05dc5c933b92" />
+  <br><sub>Reach me on <a href="https://www.linkedin.com/in/gustavoemanuelrosa/">LinkedIn</a> or at gustavo.emanuel01@outlook.com — replies within a day, UTC−3.</sub>
+</p>
