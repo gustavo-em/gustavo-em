@@ -80,11 +80,11 @@ A calorie counter that logs Brazilian food in <b>three taps, offline, without an
 
 ### [BigBlueButton Mobile](https://github.com/bigbluebutton/bigbluebutton-mobile)
 
-The official mobile app of BigBlueButton, an open-source classroom platform. <b>26 pull requests merged</b> between Feb and Jun 2022 while at iMDT: multi-portal management, the iOS delegate that stops screen sharing when the app is closed, i18n fallback for missing locales, iPad full-screen layout and Android build fixes.
+The official mobile app of BigBlueButton, an open-source classroom platform. <b>26 pull requests merged</b> between Feb and Jun 2022 while at iMDT: multi-portal management, the iOS delegate that stops screen sharing when the app is closed, i18n fallback for missing locales, iPad full-screen layout and Android build fixes. On the native side, my <b>Swift commits in the mobile SDK</b>: screen-share rotation in the Broadcast Upload Extension, stopping the extension from the app, background audio keep-alive.
 
-`React Native` `TypeScript` `Swift` `WebRTC` `i18n` `iOS + Android release`
+`React Native` `TypeScript` `Swift` `ReplayKit` `WebRTC` `i18n`
 
-[My 26 merged PRs](https://github.com/bigbluebutton/bigbluebutton-mobile/pulls?q=is%3Apr+author%3Agustavo-em+is%3Amerged) · [Repository](https://github.com/bigbluebutton/bigbluebutton-mobile)
+[My 26 merged PRs](https://github.com/bigbluebutton/bigbluebutton-mobile/pulls?q=is%3Apr+author%3Agustavo-em+is%3Amerged) · [Swift commits in the SDK](https://github.com/gustavo-em/bigbluebutton-mobile-sdk/commits?author=gustavo-em) · [Repository](https://github.com/bigbluebutton/bigbluebutton-mobile)
 
 </td>
 <td width="50%" valign="top">
@@ -104,7 +104,7 @@ Writes, persists and shares application logs straight from a user's device. Same
 <h2 align="center">Open source</h2>
 
 <p align="center">
-  <sub><b>BigBlueButton</b> — open-source classroom platform. Between Feb and Jun 2022, at iMDT, I had <b>26 pull requests merged</b> into <a href="https://github.com/bigbluebutton/bigbluebutton-mobile/pulls?q=is%3Apr+author%3Agustavo-em+is%3Amerged">bigbluebutton/bigbluebutton-mobile</a> and 6 more across <a href="https://github.com/bigbluebutton/bigbluebutton/pulls?q=is%3Apr+author%3Agustavo-em+is%3Amerged">bigbluebutton/bigbluebutton</a> and iMDT/bigbluebutton: multi-portal management, the iOS delegate that stops screen sharing when the app is closed, i18n fallback, iPad full-screen layout, Android build fixes and translations shipped through Transifex. Async review with a team spread across countries, in English.</sub>
+  <sub><b>BigBlueButton</b> — open-source classroom platform. Between Feb and Jun 2022, at iMDT, I had <b>26 pull requests merged</b> into <a href="https://github.com/bigbluebutton/bigbluebutton-mobile/pulls?q=is%3Apr+author%3Agustavo-em+is%3Amerged">bigbluebutton/bigbluebutton-mobile</a> and 6 more across <a href="https://github.com/bigbluebutton/bigbluebutton/pulls?q=is%3Apr+author%3Agustavo-em+is%3Amerged">bigbluebutton/bigbluebutton</a> and iMDT/bigbluebutton: multi-portal management, the iOS delegate that stops screen sharing when the app is closed, i18n fallback, iPad full-screen layout, Android build fixes and translations shipped through Transifex. On the native side, 4 Swift/TypeScript commits in the <a href="https://github.com/gustavo-em/bigbluebutton-mobile-sdk/commits?author=gustavo-em">mobile SDK</a>: screen-share rotation in the iOS Broadcast Upload Extension, stopping the extension from the app, background audio keep-alive, one-time permission request. Async review with a team spread across countries, in English.</sub>
 </p>
 
 <br>
