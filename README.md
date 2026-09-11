@@ -60,7 +60,7 @@ A calorie counter that logs Brazilian food in three taps, offline, without an ac
 
 ## Open-source contributions
 
-<a href="https://github.com/bigbluebutton/bigbluebutton-mobile/pulls?q=is%3Apr+author%3Agustavo-em+is%3Amerged"><img src="docs/bigbluebutton-contributions.svg" width="100%" alt="26 pull requests merged in bigbluebutton-mobile, 6 more across BigBlueButton repositories, 4 Swift commits in the mobile SDK"></a>
+<a href="https://github.com/bigbluebutton/bigbluebutton-mobile/pulls?q=is%3Apr+author%3Agustavo-em+is%3Amerged"><img src="docs/bigbluebutton-contributions-v2.svg" width="100%" alt="26 pull requests merged in bigbluebutton-mobile, 6 more across BigBlueButton repositories, 4 Swift commits in the mobile SDK"></a>
 
 **[BigBlueButton Mobile](https://github.com/bigbluebutton/bigbluebutton-mobile)** is the official app of BigBlueButton, an open-source classroom platform. Between Feb and Jun 2022, at iMDT, I had 26 pull requests merged there: multi-portal management, the iOS delegate that stops screen sharing when the app is closed, i18n fallback for missing locales, iPad full-screen layout, Android build fixes. On the native side, my Swift commits in the mobile SDK cover screen-share rotation in the ReplayKit Broadcast Upload Extension, stopping the extension from the app and background audio keep-alive. Async review with a team spread across countries, in English.
 
