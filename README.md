@@ -1,6 +1,6 @@
 <p align="center">
-  <b>Mobile Software Engineer</b> · React Native · Kotlin · Swift<br>
-  <sub>6 years shipping Android and iOS apps, one of them used by 200,000+ people a day. Open to senior React Native roles, remote (US/EU overlap, UTC−3).</sub>
+  <b>Mobile Software Engineer</b> · Android (Kotlin) · iOS (Swift) · React Native<br>
+  <sub>6 years shipping Android and iOS apps, one of them used by 200,000+ people a day. Open to senior mobile roles (React Native, Android, iOS), remote (US/EU overlap, UTC−3).</sub>
 </p>
 
 <p align="center">
@@ -14,43 +14,51 @@
 
 <table>
 <tr>
-<td width="33%" align="center" valign="top">
+<td width="50%" valign="top">
 <a href="https://github.com/gustavo-em/lesingo#demo"><img src="docs/lesingo-demo.gif" width="49%" alt="Lesingo running live on a phone"></a><a href="https://github.com/gustavo-em/lesingo#demo"><img src="docs/lesingo-still.png" width="49%" alt="Lesingo learning card"></a>
 </td>
-<td width="33%" align="center" valign="top">
-<a href="https://apps.apple.com/us/app/aluza-shared-to-do-list/id6808513680"><img src="docs/aluza-screens.png" width="100%" alt="Aluza, shared to-do list, on the App Store"></a>
-</td>
-<td width="33%" align="center" valign="top">
-<a href="https://github.com/gustavo-em/bocado"><img src="docs/bocado-screens.png" width="100%" alt="Bocado, calorie counter for Brazilian food"></a>
-</td>
-</tr>
-<tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
 ### [Lesingo](https://github.com/gustavo-em/lesingo)
 <img alt="in development" src="https://img.shields.io/badge/Android-in%20development-f9d71c?style=flat-square&labelColor=1f2328"> <img alt="on-device" src="https://img.shields.io/badge/100%25-on--device-16a34a?style=flat-square">
 
-Point the camera at everyday objects and get an English card over each one: word, translation, IPA, speech. No backend, no frame ever leaves the phone. VisionCamera 5, MediaPipe EfficientDet, Kotlin via Nitro, Reanimated.
+Point the camera at everyday objects and get an English card over each one: word, translation, IPA, speech. No backend, no frame ever leaves the phone.
+
+The camera pipeline is native: VisionCamera 5 frame processor, MediaPipe EfficientDet-Lite0, a Kotlin module through Nitro, overlays in Reanimated. Tuned to hold its frame rate on an entry-level Galaxy J6.
 
 [Video demo](https://github.com/gustavo-em/lesingo#demo) · [Site](https://gustavo-em.github.io/lesingo/) · [Architecture](https://github.com/gustavo-em/lesingo/blob/main/docs/ARCHITECTURE.md)
 
 </td>
-<td width="33%" valign="top">
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://apps.apple.com/us/app/aluza-shared-to-do-list/id6808513680"><img src="docs/aluza-screens.png" width="100%" alt="Aluza, shared to-do list, on the App Store"></a>
+</td>
+<td width="50%" valign="top">
 
 ### [Aluza](https://github.com/gustavo-em/aluza)
 <a href="https://apps.apple.com/us/app/aluza-shared-to-do-list/id6808513680"><img alt="Live on the App Store" src="https://img.shields.io/badge/App%20Store-live-0D96F6?style=flat-square&logo=apple&logoColor=white"></a>
 
-A shared to-do list that captures without limit and commits to three. The rule lives in the domain layer, not in the UI, so a redesign cannot break it. React Native 0.87, TypeScript, Firebase, offline-first, Clean Architecture + MVVM.
+A shared to-do list that captures without limit and commits to three. The rule lives in the domain layer, not in the UI, so a redesign cannot break it.
+
+React Native 0.87, TypeScript, Firebase, offline-first, Clean Architecture + MVVM, released through App Store Connect.
 
 [App Store](https://apps.apple.com/us/app/aluza-shared-to-do-list/id6808513680) · [Site](https://ideiasorganizetask.web.app/) · [Architecture](https://github.com/gustavo-em/aluza/blob/main/docs/ARCHITECTURE.md) · [ADRs](https://github.com/gustavo-em/aluza/tree/main/docs/adr)
 
 </td>
-<td width="33%" valign="top">
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/gustavo-em/bocado"><img src="docs/bocado-pt-en.png" width="100%" alt="Bocado in Portuguese with the light theme and in English with the dark theme"></a>
+</td>
+<td width="50%" valign="top">
 
 ### [Bocado](https://github.com/gustavo-em/bocado)
 <img alt="in development" src="https://img.shields.io/badge/Android%20%2B%20iOS-in%20development-f9d71c?style=flat-square&labelColor=1f2328">
 
-A calorie counter that logs Brazilian food in three taps, offline, without an account: the official food tables shipped with the household measures people actually use at the table. React Native, TypeScript, pt-BR / en-US.
+A calorie counter that logs Brazilian food in three taps, offline, without an account: the official food tables shipped with the household measures people actually use at the table.
+
+Left: Portuguese, light theme. Right: English, dark theme. React Native, TypeScript, SQLite, pt-BR / en-US, in-app theme switch for phones whose system setting is locked.
 
 [Repository](https://github.com/gustavo-em/bocado) · [Why it exists](https://github.com/gustavo-em/bocado#why-it-exists)
 
@@ -71,32 +79,40 @@ A calorie counter that logs Brazilian food in three taps, offline, without an ac
 <table>
 <tr>
 <td width="50%" valign="top">
+<a href="https://github.com/gustavo-em/orchestrator-features#how-it-works"><img src="docs/orchestrator-flow.svg" width="100%" alt="A prompt typed into the orchestrator and the five agents it runs"></a>
+</td>
+<td width="50%" valign="top">
 
 ### [Orchestrator Features](https://github.com/gustavo-em/orchestrator-features)
 
-<a href="https://github.com/gustavo-em/orchestrator-features#how-it-works"><img src="docs/orchestrator-flow.svg" width="100%" alt="A prompt typed into the orchestrator and the five agents it runs"></a>
+One sentence goes in. It plans the React Native feature, writes it, opens the app on a real Android device, reads the UI tree, and only then says whether it passed.
 
-One sentence goes in. It plans the React Native feature, writes it, opens the app on a real Android device, reads the UI tree, and only then says whether it passed. Node 18+, Claude Code, Codex, Android automation.
+Node 18+, Claude Code, Codex, Android automation over adb. Built to ship my own apps faster without skipping the part where a human would have tapped through the screen.
 
 [How it works](https://github.com/gustavo-em/orchestrator-features#how-it-works) · [Token economy](https://github.com/gustavo-em/orchestrator-features#token-economy)
 
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/gustavo-em/react-native-logfile"><img src="docs/logfile-card.svg" width="100%" alt="react-native-logfile-share: write logs to a file on the device, then share the file from a button"></a>
 </td>
 <td width="50%" valign="top">
 
 ### [react-native-logfile](https://github.com/gustavo-em/react-native-logfile)
 
-<a href="https://github.com/gustavo-em/react-native-logfile"><img src="docs/logfile-card.svg" width="100%" alt="react-native-logfile-share: write logs to a file on the device, then share the file from a button"></a>
+Writes, persists and shares application logs straight from the user's device. Two calls: one to write, one to hand the file to the user through the native share sheet.
 
-Writes, persists and shares application logs straight from the user's device. Two calls: one to write, one to hand the file to the user through the native share sheet. Published on npm.
+Published on npm as `react-native-logfile-share`. Same idea I took to production at work, where a custom error-logging layer cut monitoring cost by 50%.
 
-[npm: react-native-logfile-share](https://www.npmjs.com/package/react-native-logfile-share) · [Repository](https://github.com/gustavo-em/react-native-logfile)
+[npm](https://www.npmjs.com/package/react-native-logfile-share) · [Repository](https://github.com/gustavo-em/react-native-logfile)
 
 </td>
 </tr>
 </table>
 
 <p align="center">
-  <sub><b>Day to day:</b> React Native · TypeScript · Kotlin · Swift · native modules (bridging & Nitro) · SQLite and offline-first sync · Firebase · CI/CD and store releases (Google Play, App Store) · Clean Architecture · MVVM · performance work on entry-level devices</sub>
+  <sub><b>Day to day:</b> Kotlin · Swift · React Native · TypeScript · native modules (bridging & Nitro) · SQLite and offline-first sync · Firebase · CI/CD and store releases (Google Play, App Store) · Clean Architecture · MVVM · performance work on entry-level devices</sub>
 </p>
 
 <p align="center">
