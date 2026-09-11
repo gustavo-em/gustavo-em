@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 916 950" width="916" height="950" role="img" aria-label="react-native-logfile-share: write logs to a file on the device, then share the file from a button">
+  <defs>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .name { font-size: 21px; font-weight: 600; }
+      .desc { font-size: 15px; }
+      .tag  { font-size: 12.5px; letter-spacing: .08em; }
+    </style>
+    <marker id="ar2" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#484f58"/>
+    </marker>
+  </defs>
+  <rect width="916" height="950" rx="14" fill="#0d1117"/>
+  <rect x="36" y="28" width="808" height="228" rx="10" fill="#161b22" stroke="#30363d"/>
+  <rect x="36" y="28" width="808" height="34" rx="10" fill="#21262d"/>
+  <rect x="36" y="52" width="808" height="10" fill="#21262d"/>
+  <circle cx="58" cy="45" r="5.5" fill="#ff5f57"/><circle cx="76" cy="45" r="5.5" fill="#febc2e"/><circle cx="94" cy="45" r="5.5" fill="#28c840"/>
+  <text class="mono" x="440" y="50" fill="#8b949e" font-size="12.5" text-anchor="middle">App.tsx</text>
+  <text class="mono" x="62" y="98" font-size="15.5" fill="#8b949e">import { LogFile, handleShareLogs } from 'react-native-logfile-share';</text>
+  <text class="mono" x="62" y="140" font-size="15.5" fill="#e6edf3">await LogFile.writeLog('Sync finished with 3 conflicts', 'sync');</text>
+  <text class="mono" x="62" y="188" font-size="15.5" fill="#e6edf3">&lt;Button title="Send logs to support" onPress={handleShareLogs} /&gt;</text>
+  <text class="mono" x="62" y="230" font-size="13.5" fill="#6e7681">two calls: one to write, one to hand the file to the user</text>
+
+  <path d="M440 256 L440 288" stroke="#484f58" stroke-width="1.6" marker-end="url(#ar2)"/>
+
+  <rect x="36" y="294" width="808" height="112" rx="10" fill="#161b22" stroke="#30363d"/>
+  <text class="mono name" x="62" y="334" fill="#e6edf3">app-logs.txt</text>
+  <text class="sans tag" x="62" y="358" fill="#6e7681">DOCUMENTS DIRECTORY · 5 MB CAP</text>
+  <text class="sans desc" x="470" y="340" fill="#8b949e">Timestamp, label and message appended</text>
+  <text class="sans desc" x="470" y="362" fill="#8b949e">on the device, no network involved</text>
+  <text class="mono" x="62" y="392" font-size="13" fill="#8b949e">[2026-09-11T02:10:41Z] [sync] Sync finished with 3 conflicts</text>
+
+  <path d="M440 406 L440 438" stroke="#484f58" stroke-width="1.6" marker-end="url(#ar2)"/>
+
+  <rect x="36" y="444" width="808" height="92" rx="10" fill="#161b22" stroke="#30363d"/>
+  <text class="mono name" x="62" y="484" fill="#e6edf3">encryptLogFile()</text>
+  <text class="sans tag" x="62" y="508" fill="#6e7681">AES COPY BEFORE IT LEAVES THE APP</text>
+  <text class="sans desc" x="470" y="490" fill="#8b949e">Support gets the file, not the raw text</text>
+
+  <path d="M440 536 L440 568" stroke="#484f58" stroke-width="1.6" marker-end="url(#ar2)"/>
+
+  <rect x="36" y="574" width="808" height="150" rx="10" fill="#1c1a08" stroke="#f9d71c" stroke-width="1.6"/>
+  <text class="mono name" x="62" y="614" fill="#f9d71c">handleShareLogs()</text>
+  <text class="sans tag" x="62" y="638" fill="#a58b18">NATIVE SHARE SHEET · iOS AND ANDROID</text>
+  <text class="sans desc" x="62" y="672" fill="#c9b458">Email, Slack, AirDrop, Drive: the user picks where the log goes</text>
+  <text class="sans desc" x="62" y="700" fill="#8b949e">Built for the bugs that do not reproduce from a stack trace alone</text>
+
+  <rect x="36" y="756" width="808" height="150" rx="10" fill="#161b22" stroke="#30363d"/>
+  <text class="sans tag" x="62" y="792" fill="#6e7681">IN PRODUCTION, THE SAME IDEA</text>
+  <text class="sans desc" x="62" y="824" fill="#e6edf3">A custom error-logging layer on an app used by 200,000+ people a day</text>
+  <text class="sans desc" x="62" y="850" fill="#e6edf3">cut monitoring and observability cost by 50%.</text>
+  <text class="mono" x="62" y="886" font-size="13.5" fill="#8b949e">npm install react-native-logfile-share</text>
+</svg>

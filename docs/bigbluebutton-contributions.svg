@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 916 250" width="916" height="250" role="img" aria-label="My contributions to BigBlueButton Mobile: 26 merged pull requests, 6 more across BigBlueButton repositories, 4 Swift commits in the mobile SDK">
+  <defs>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .big  { font-size: 54px; font-weight: 700; letter-spacing: -0.02em; }
+      .lbl  { font-size: 15px; }
+      .tag  { font-size: 12.5px; letter-spacing: .08em; }
+    </style>
+  </defs>
+  <rect width="916" height="250" rx="14" fill="#0d1117"/>
+  <text class="sans tag" x="36" y="42" fill="#6e7681">CONTRIBUTOR · NOT MY REPOSITORY · FEB–JUN 2022 · iMDT</text>
+  <rect x="36" y="60" width="268" height="150" rx="10" fill="#161b22" stroke="#30363d"/>
+  <text class="sans big" x="60" y="130" fill="#f9d71c">26</text>
+  <text class="sans lbl" x="60" y="158" fill="#e6edf3">pull requests merged</text>
+  <text class="mono" x="60" y="184" font-size="13" fill="#8b949e">bigbluebutton/bigbluebutton-mobile</text>
+  <rect x="324" y="60" width="268" height="150" rx="10" fill="#161b22" stroke="#30363d"/>
+  <text class="sans big" x="348" y="130" fill="#e6edf3">+6</text>
+  <text class="sans lbl" x="348" y="158" fill="#e6edf3">merged in the platform</text>
+  <text class="mono" x="348" y="184" font-size="13" fill="#8b949e">bigbluebutton · iMDT/bigbluebutton</text>
+  <rect x="612" y="60" width="268" height="150" rx="10" fill="#161b22" stroke="#30363d"/>
+  <text class="sans big" x="636" y="130" fill="#e6edf3">4</text>
+  <text class="sans lbl" x="636" y="158" fill="#e6edf3">Swift commits, mobile SDK</text>
+  <text class="mono" x="636" y="184" font-size="13" fill="#8b949e">ReplayKit broadcast extension</text>
+  <text class="sans" x="36" y="236" font-size="13.5" fill="#8b949e">Portals · iOS screen-share lifecycle · deep links · i18n fallback · iPad layout · Android build · rotation · background audio</text>
+</svg>
