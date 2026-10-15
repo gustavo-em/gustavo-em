@@ -19,27 +19,27 @@
 <a href="https://github.com/gustavo-em/lesingo#demo"><img src="docs/lesingo-demo.gif" width="49%" alt="Lesingo running live on a phone"></a><a href="https://github.com/gustavo-em/lesingo#demo"><img src="docs/lesingo-still.png" width="49%" alt="Lesingo learning card"></a>
 
 ### [Lesingo](https://github.com/gustavo-em/lesingo)
-<img alt="App, Android, in development" src="https://img.shields.io/badge/app-Android%20·%20in%20development-1f2328?style=flat-square&labelColor=6f42c1"> <img alt="100% on-device" src="https://img.shields.io/badge/100%25-on--device-16a34a?style=flat-square">
+<a href="https://apps.apple.com/br/app/lesingo-ingl%C3%AAs-pela-c%C3%A2mera/id6809285148"><img alt="App, live on the App Store and Google Play" src="https://img.shields.io/badge/app-live%20on%20the%20App%20Store%20·%20Google%20Play-1f2328?style=flat-square&labelColor=6f42c1&logo=apple&logoColor=white"></a> <img alt="100% on-device" src="https://img.shields.io/badge/100%25-on--device-16a34a?style=flat-square">
 
 Point the camera at everyday objects and get an English card over each one: word, translation, IPA, speech. No backend, no frame ever leaves the phone.
 
 The camera pipeline is native: VisionCamera 5 frame processor, MediaPipe EfficientDet-Lite0, a Kotlin module through Nitro, overlays in Reanimated. Tuned to hold its frame rate on an entry-level Galaxy J6.
 
-[Video demo](https://github.com/gustavo-em/lesingo#demo) · [Site](https://gustavo-em.github.io/lesingo/) · [Architecture](https://github.com/gustavo-em/lesingo/blob/main/docs/ARCHITECTURE.md)
+[App Store](https://apps.apple.com/br/app/lesingo-ingl%C3%AAs-pela-c%C3%A2mera/id6809285148) · [Google Play](https://play.google.com/store/apps/details?id=com.gustavoem.saylens) · [Video demo](https://github.com/gustavo-em/lesingo#demo) · [Site](https://gustavo-em.github.io/lesingo/) · [Architecture](https://github.com/gustavo-em/lesingo/blob/main/docs/ARCHITECTURE.md)
 
 </td>
 <td width="50%" valign="top">
 
-<a href="https://apps.apple.com/us/app/aluza-shared-to-do-list/id6808513680"><img src="docs/aluza-screens.png" width="100%" alt="Aluza, shared to-do list, on the App Store"></a>
+<a href="https://apps.apple.com/br/app/aluza-lista-compartilhada/id6808513680"><img src="docs/aluza-screens.png" width="100%" alt="Aluza, shared to-do list, on the App Store"></a>
 
 ### [Aluza](https://github.com/gustavo-em/aluza)
-<a href="https://apps.apple.com/us/app/aluza-shared-to-do-list/id6808513680"><img alt="App, live on the App Store" src="https://img.shields.io/badge/app-live%20on%20the%20App%20Store-1f2328?style=flat-square&labelColor=6f42c1&logo=apple&logoColor=white"></a>
+<a href="https://apps.apple.com/br/app/aluza-lista-compartilhada/id6808513680"><img alt="App, live on the App Store and Google Play" src="https://img.shields.io/badge/app-live%20on%20the%20App%20Store%20·%20Google%20Play-1f2328?style=flat-square&labelColor=6f42c1&logo=apple&logoColor=white"></a>
 
 A shared to-do list that captures without limit and commits to three. The rule lives in the domain layer, not in the UI, so a redesign cannot break it.
 
-React Native 0.87, TypeScript, Firebase, offline-first, Clean Architecture + MVVM, released through App Store Connect.
+React Native 0.87, TypeScript, Firebase, offline-first, Clean Architecture + MVVM, released on the App Store and Google Play.
 
-[App Store](https://apps.apple.com/us/app/aluza-shared-to-do-list/id6808513680) · [Site](https://ideiasorganizetask.web.app/) · [Architecture](https://github.com/gustavo-em/aluza/blob/main/docs/ARCHITECTURE.md) · [ADRs](https://github.com/gustavo-em/aluza/tree/main/docs/adr)
+[App Store](https://apps.apple.com/br/app/aluza-lista-compartilhada/id6808513680) · [Google Play](https://play.google.com/store/apps/details?id=com.ideiasorganizetask) · [Site](https://ideiasorganizetask.web.app/) · [Architecture](https://github.com/gustavo-em/aluza/blob/main/docs/ARCHITECTURE.md) · [ADRs](https://github.com/gustavo-em/aluza/tree/main/docs/adr)
 
 </td>
 </tr>
